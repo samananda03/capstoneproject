@@ -1,0 +1,30 @@
+.navbar-custom {
+  padding: 10px 20px; 
+  padding-left: 100px;/* Adjust padding around the navbar */
+}
+
+.brand-left {
+  font-size: 24px; /* Font size for the bank name */
+  font-weight: bold;
+  margin-left: 10px;
+  padding-left: 50px; /* Add some space to the left of the bank name */
+}
+
+.navbar-nav {
+  margin-left: auto; /* Pushes all nav links to the right */
+  padding-right: 50px;
+}
+
+.navbar-nav .nav-item .nav-link {
+  font-size: 16px; /* Font size for navigation links */
+  color: #fff;
+  padding-right: 20px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #0d6efd; /* Blue color when hovered */
+}
+
+button {
+  margin-left: 10px;
+}

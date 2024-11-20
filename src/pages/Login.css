@@ -1,0 +1,87 @@
+/* Login.css */
+h2 {
+    color: #003366;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    padding-bottom: 300px;
+    
+  }
+  
+  .login-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+ 
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    padding-bottom: 100px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  input:focus,
+  select:focus {
+    border-color: #0066cc;
+    outline: none;
+  }
+  
+  button {
+    background-color: #0066cc;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 15px;
+  }
+  
+  button:hover {
+    background-color: #005bb5;
+  }
+  
+  .error {
+    color: #ff0000;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .register-link {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .register-link a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  .register-link a:hover {
+    text-decoration: underline;
+  }
+  
+  .success {
+    color: green;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  

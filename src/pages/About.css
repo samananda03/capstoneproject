@@ -1,0 +1,37 @@
+/* About Page Styles */
+.about-container {
+    text-align: center;
+    padding: 5rem;
+    color: #333;
+    background-color: beige;
+  }
+  
+  .about-container h2 {
+    color: #a57bf3;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about-container p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Image Container with Animation */
+  .about-images {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .about-images img {
+    width: 300px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .about-images img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  

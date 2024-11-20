@@ -1,0 +1,69 @@
+/* General Home Page Styling */
+.home-container {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+/* Header Section */
+.header-section {
+  margin-bottom: 50px;
+}
+
+.main-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #1a1a1a;
+}
+
+.tagline {
+  font-size: 1.25rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* Features Section */
+.features-section {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.feature-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  width: max-content;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-title {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.feature-description {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Call to Action Button */
+.cta-section {
+  margin-top: 50px;
+}
+
+.cta-button {
+  padding: 15px 30px;
+  font-size: 1.25rem;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+  transition: background-color 0.3s ease;
+}

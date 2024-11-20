@@ -1,0 +1,41 @@
+.form-container {
+  padding: 20px;
+  margin-top: 2rem; /* This pushes the form a bit more upwards */
+}
+
+h2 {
+  color: #003366;
+  text-align: center;
+}
+
+.form-container .mb-3 {
+  margin-bottom: 15px;
+}
+
+.form-container button {
+  background-color: #0066cc;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.form-container button:hover {
+  background-color: #005bb5;
+}
+
+.form-container .text-center {
+  margin-top: 20px;
+}
+
+.form-container .alert {
+  margin-bottom: 20px;
+}
+.success {
+  color: green;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
